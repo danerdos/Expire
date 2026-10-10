@@ -22,3 +22,5 @@ from the previous localStorage version are imported automatically when opened
 under the same browser origin. No Firebase connection is included yet.
 Use an HTTP local server or HTTPS website to ensure browser storage works.
 Data stays on the same device/browser/origin; clearing site data may erase it.
+
+PWA: Upload the CONTENTS of this folder (including manifest.webmanifest, sw.js and icons/) to the SAME GitHub Pages site/path. Visit over HTTPS, refresh, then choose Install app. Existing IndexedDB data remains on the same origin/path. Offline support caches app files; background notifications are NOT implemented.
